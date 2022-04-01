@@ -21,4 +21,21 @@
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Controllers\Home.cs" />
+    <Compile Remove="Migrations\20220329195629_DBInitCreate.cs" />
+    <Compile Remove="Migrations\20220329195629_DBInitCreate.Designer.cs" />
+    <Compile Remove="Migrations\20220329230410_DBPush1.cs" />
+    <Compile Remove="Migrations\20220329230410_DBPush1.Designer.cs" />
+    <Compile Remove="Migrations\20220329232236_V2.cs" />
+    <Compile Remove="Migrations\20220329232236_V2.Designer.cs" />
+    <Compile Remove="Migrations\20220329233906_V3.cs" />
+    <Compile Remove="Migrations\20220329233906_V3.Designer.cs" />
+    <Compile Remove="Migrations\SchoolContextModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations" />
+  </ItemGroup>
+
 </Project>
